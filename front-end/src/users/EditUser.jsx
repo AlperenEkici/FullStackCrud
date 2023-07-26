@@ -21,7 +21,7 @@ export default function EditUser() {
 
   useEffect(() => {
     loadUser();
-  });
+  },[]);
 
   const onSubmit = (e) => {
     e.preventDefault();
