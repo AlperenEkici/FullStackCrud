@@ -1,0 +1,51 @@
+ul {
+    list-style-type: none;
+    margin: 5;
+    padding: 0;
+    overflow: hidden;
+    background-color: #efefef;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 6px 102.9px;
+    text-decoration: none;
+    font-size: 19px;
+}
+
+li a:hover, .menu:hover {
+    background-color: #ffffff;
+    color: rgb(129, 153, 90);
+}
+
+li.menu {
+    display: inline-block;
+}
+
+.acilir-menu {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+}
+
+.acilir-menu a {
+    display: block;
+    text-align: left;
+    color: #000000;
+}
+
+.acilir-menu a:hover {
+    color: rgb(129, 153, 90);
+}
+
+.menu:hover .acilir-menu {
+    display: block;
+}
+
